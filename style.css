@@ -555,3 +555,160 @@ button.\32 nd_btn:hover {
     color: #ffffff;
 }
 /* ====================================== Event-Area-End ======================================= */
+
+/* =============================================== Footer Start =====================================  */
+
+.footer-bg {
+    background-image: url(./Assets/footer/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    position: relative;
+    z-index: 2;
+}
+
+.footer-bg::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(30, 55, 55, 0.98);
+    z-index: -1;
+}
+
+/* =======================================col-4 start=============================================== */
+.footer-logo {
+    padding-bottom: 30px;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #8b9e9e;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.mail-phone {
+    padding-top: 10px;
+}
+
+.footer-email {
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon i {
+    color: #fd753f;
+}
+
+a {
+    color: #8b9e9e;
+    text-decoration: none;
+}
+
+.footer-mail {
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer-no {
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer-phone {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.footer-p_icon i {
+    color: #fd753f;
+}
+
+a {
+    color: #8b9e9e;
+    text-decoration: none;
+}
+
+/* ==================================col-4 End ============================== */
+
+/* =============================col-2 Start ============================= */
+
+
+.nav-title h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.nav-title {
+    padding-bottom: 30px;
+}
+
+.footer_liste-control {
+    list-style: none;
+    padding-left: 0px;
+    color: #8b9e9e;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.5;
+}
+
+/* =================================col-4 start  ============================ */
+
+.footer_title {
+    background-color: #294141;
+    height: 90%;
+}
+.footer__tit h4 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #ffffff;
+    padding: 26px;
+}
+.footer_control {
+    padding-left: 26px;
+}
+
+/* =================================col-4 End ============================ */
+
+.copyright-area{
+    padding: 20px 0;
+    background-color: #172c2d;
+}
+.copy_right {
+    font-size: 16px;
+    color: #8b9e9e;
+    margin-top: 10px;
+}
+.copy_icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.copy_icon i {
+    height: 40px;
+    width: 40px;
+    background-color: #7083834a;
+    border-radius: 50px;
+    padding: 0;
+    margin-left: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fd753f;
+}
+.copy_icon i:hover {
+    background-color: #fd753f;
+    color: #ffffff;
+    transition: 0.5s;
+}
