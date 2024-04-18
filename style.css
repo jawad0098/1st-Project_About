@@ -478,5 +478,36 @@ h3.count_event {
     background-color: #052725;
     transition: 0.3s;
 }
+.event-second {
+    height: 21%;
+    margin-top: 30px;
+    background-color: #f2f7f7;
+    padding: 37px 51px;
+}
+.second-title h4 {
+    color: #1e3737;
+    font-size: 20px;
+    font-weight: 700;
+}
+.shape__1 {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.second-shape_1 {
+    margin-right: 20px;
+}
+
+.shape1-title h4 {
+    color: #1e3737;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.shape1-title p {
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
 
 /* ====================================== Event-Area-End ======================================= */
