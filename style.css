@@ -546,4 +546,12 @@ button.\32 nd_btn {
 .sec_btn button {
     margin: 4px;
 }
+button.\31 st_btn:hover{
+    background-color: #07847f;
+    color: #ffffff;
+}   
+button.\32 nd_btn:hover {
+    background-color: #07847f;
+    color: #ffffff;
+}
 /* ====================================== Event-Area-End ======================================= */
