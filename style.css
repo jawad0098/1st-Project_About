@@ -483,6 +483,7 @@ h3.count_event {
     margin-top: 30px;
     background-color: #f2f7f7;
     padding: 37px 51px;
+    margin-bottom: 30px;
 }
 .second-title h4 {
     color: #1e3737;
@@ -509,5 +510,40 @@ h3.count_event {
     font-weight: 300;
     margin-bottom: 6px;
 }
+.second-tag {
+    background-color: #f2f7f7;
+    margin-bottom: 30px;
+    height: 10%;
+}
 
+.tag-titile {
+    position: relative;
+}
+
+.tag-titile h4 {
+    font-size: 22px;
+    font-weight: 800;
+    padding: 30px 40px;
+    padding-bottom: 18px;
+}
+.sec_btn {
+    padding: 2px 40px;
+}
+button.\31 st_btn {
+    border: 0px;
+    background-color: #ffff;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 300;
+}
+button.\32 nd_btn {
+    border: 0px;
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 300;
+}
+.sec_btn button {
+    margin: 4px;
+}
 /* ====================================== Event-Area-End ======================================= */
